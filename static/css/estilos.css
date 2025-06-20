@@ -1,0 +1,17 @@
+#map { height: 500px; }
+
+h1{
+    text-align: center;
+    color: #077012;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+body{
+    background-image: url("../images/Bilbaoesquina.png");
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
