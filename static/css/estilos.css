@@ -1,5 +1,11 @@
 #map { height: 500px; }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 h1{
     text-align: center;
     color: #077012;
@@ -7,14 +13,14 @@ h1{
     margin-bottom: 20px;
 }
 
-body{
+/* body{
     background-image: url("../images/Bilbaoesquina.png");
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-}
+} */
 
 .mainImg{
     width: 100%;
@@ -22,5 +28,30 @@ body{
     border-radius: 8px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff2;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.navbar  {
+    padding: 20px;
+    gap: 50px;
+
+}
+
+.navbar  a{
+    text-decoration: none;
+    color: #000;
+
+}
+
+.navbar a:hover {
+    color:  #000a;
 }
 
