@@ -13,60 +13,72 @@ h1{
     margin-bottom: 20px;
 }
 
-/* body{
-    background-image: url("../images/Bilbaoesquina.png");
-    background-size: cover;
-    background-attachment: fixed;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-} */
 
-.mainImg{
-    width: 100%;
-    max-width: 500px;
-    border-radius: 8px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-
+body {
+    background-color: #e3f2fd;
+    font-family: 'Segoe UI', sans-serif;
+    color: #212529;
 }
 
 .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #ff2;
-    margin-bottom: 40px;
-    margin-top: 20px;
+    background-color: #0d47a1 !important;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
-.navbar  {
-    padding: 20px;
-    gap: 50px;
-
+.navbar a.nav-link {
+    color: white !important;
+    margin-right: 1rem;
 }
 
-.navbar  a{
-    text-decoration: none;
-    color: #000;
-
+.navbar a.nav-link:hover {
+    text-decoration: underline;
 }
 
-.navbar a:hover {
-    color:  #000a;
+.mainImg {
+    display: block;
+    margin: 30px auto;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-body {
-    background-color: #f8f9fa; /* gris claro */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.alert-info {
+    background-color: #bbdefb;
+    color: #0d47a1;
+    border: none;
 }
 
-.card h2 {
-    color: #010814; /* azul Bootstrap */
+.card {
+    background-color: #ffffff;
+    border: none;
+}
+
+.accordion-button {
+    background-color: #e3f2fd;
+    color: #0d47a1;
+    font-weight: bold;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #bbdefb;
+    color: #0d47a1;
+}
+
+.modal-header {
+    background-color: #0d47a1;
+    color: white;
+    border-bottom: none;
+}
+
+.modal-footer {
+    border-top: none;
 }
 
 footer {
-    font-size: 0.9rem;
-    box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+    background-color: #0d47a1 !important;
+    color: white;
 }
+
+
 
 
